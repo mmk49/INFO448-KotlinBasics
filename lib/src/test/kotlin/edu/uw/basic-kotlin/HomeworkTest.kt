@@ -92,10 +92,10 @@ class HomeworkTest {
     @Test fun Money_convertTests() {
         val tests = listOf(
             Pair(tenUSD, tenUSD),
-            Pair(tenUSD, fiveGBP),
+           Pair(tenUSD, fiveGBP),
             Pair(tenUSD, fifteenEUR),
             Pair(twelveUSD, fifteenCAN),
-            Pair(fiveGBP, tenUSD),
+           Pair(fiveGBP, tenUSD),
             Pair(fiveGBP, fifteenEUR),
             Pair(fifteenEUR, fiveGBP)
         )
